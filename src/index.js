@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Header';
+import Footer from './Footer';
+import Register from './login';
+import Personalcard from './Body';
+import Primercomponente from './Appejemplo';
+import FormRegister from './FormRegister';
+import FormRegisterTwo from './FormTwo';
+import Git from './PracticaGit';
+import Pokemon from './ApiPokemon';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
+    
   </React.StrictMode>
 );
 
